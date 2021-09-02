@@ -1,0 +1,14 @@
+{
+  "name": "cordova-plugin-x-socialsharing-tests",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-x-socialsharing-tests",
+    "platforms": []
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "",
+  "license": "Apache-2.0"
+}
