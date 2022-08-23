@@ -27,16 +27,16 @@ jobs:
     # hoist configurations to top that are expected to be updated
     env:
       node-version: 16
-      cordova-version: '10.0.0'
+      cordova-version: '11.0.0'
       cordova-paramedic-npmsource: 'apache/cordova-paramedic'
       java-version: 11
       java-distro: 'adopt'
-      android-api: 30
+      android-api: 31
 
     strategy:
       matrix:
         versions:
-          - cordova-android: '10.1.0'
+          - cordova-android: '11.0.0'
 
     timeout-minutes: 60
 

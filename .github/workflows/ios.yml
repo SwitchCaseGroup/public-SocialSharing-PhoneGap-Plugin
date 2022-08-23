@@ -27,7 +27,7 @@ jobs:
     # hoist configurations to top that are expected to be updated
     env:
       node-version: 14
-      cordova-version: '10.0.0'
+      cordova-version: '11.0.0'
       cordova-paramedic-npmsource: 'apache/cordova-paramedic'
 
     strategy:
