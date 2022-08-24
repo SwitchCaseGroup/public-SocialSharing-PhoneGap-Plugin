@@ -199,6 +199,10 @@ exports.defineAutoTests = function () {
           pending('(iOS) requires user engagement to open the dialog.');
         }
 
+        if (isAndroid()) {
+          pending('(Android) skipping while working on paramedic tests.');
+        }
+
     		var dict = {
     		  title: 'sample title',
           text: 'sample text',
@@ -228,6 +232,10 @@ exports.defineAutoTests = function () {
           pending('(iOS) requires user engagement to open the dialog.');
         }
 
+        if (isAndroid()) {
+          pending('(Android) skipping while working on paramedic tests.');
+        }
+
       	var dict = {
       	  text: 'sample text'
     		};
@@ -255,6 +263,10 @@ exports.defineAutoTests = function () {
           pending('(iOS) requires user engagement to open the dialog.');
         }
 
+        if (isAndroid()) {
+          pending('(Android) skipping while working on paramedic tests.');
+        }
+
       	var dict = {
           url: 'sample title'
         };
@@ -280,6 +292,10 @@ exports.defineAutoTests = function () {
         if (isIos()) {
           // iOS: The request is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
           pending('(iOS) requires user engagement to open the dialog.');
+        }
+
+        if (isAndroid()) {
+          pending('(Android) skipping while working on paramedic tests.');
         }
 
       	var dict = {
